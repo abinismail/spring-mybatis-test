@@ -1,0 +1,12 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/test_database?useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: abin_ismail
+    password: qburst
+
+    hikari:
+      maximum-pool-size: 10
+    
